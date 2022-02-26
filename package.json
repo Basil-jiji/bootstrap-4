@@ -20,5 +20,11 @@
   "homepage": "https://github.com/Basil-jiji/bootstrap-4#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.16.1"
   }
 }
