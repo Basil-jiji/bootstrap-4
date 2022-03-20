@@ -76,6 +76,9 @@
           </div>
           <div class="col-12 col-sm align-self-center">
             <img src="./img/logo.png" class="img-fluid" />
+            <a class="btn btn-warning" href="#reservationForm" role="button"
+              >Reserve Table</a
+            >
           </div>
         </div>
       </div>
@@ -112,18 +115,19 @@
         </div>
       </div>
       <div class="row row-content align-items-center">
-        <div class="col-12 col-sm-4 col-md-3">
+        <div class="col-12 col-sm-4 order-sm-first col-md-3">
           <h3>Months Promotion</h3>
         </div>
-        <div class="col col-sm col-md">
+        <div class="col col-sm order-sm-last col-md">
           <div class="media">
             <img
-              class="d-flex mr-3 img-thumbnail align-self-center"
-              src="./img/buffet.png"
-              alt="Buffet"
-            />
+          class="d-flex img-thumbnail align-self-center"
+          src="./img/buffet.png"
+          alt="Buffet"
+        />
             <div class="media-body">
-              <h2>Grand promotion</h2>
+              <h2>Grand promotion<span class="badge badge-danger">NEW</span
+                ></h2>
               <p class="d-none d-sm-block">
                 It has survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged. It was
@@ -132,10 +136,10 @@
                 publishing software like Aldus PageMaker including versions of
                 Lorem Ipsum.
               </p>
-            </div>
-          </div>
+            </div> 
         </div>
       </div>
+    </div>
 
       <div class="row row-content align-items-center">
         <div class="col-12 col-sm-4 order-sm-last col-md-3">
@@ -161,6 +165,89 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div id="reservationForm" class="row row-content align-items-center">
+        <div class="col-12 offset-0 col-md-8 offset-md-2">
+          <div class="card">
+            <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+            <div class="card-body">
+              <form>
+              <div class="form-group row">
+                <label for="firstname" class="col-md-2 col-form-label"
+                  >Number of guests</label
+                >
+                <div class="col-md-10 ">
+                  <div class="form-check">
+                  <label class="form-check-label active">
+                      <input
+                        type="radio"
+                        name="nbpeople"
+                        value="1"
+                        autocomplete="off"
+                        checked
+                      /> 1
+                  </label>
+                  <label class="form-check-label">
+                      <input
+                        type="radio"
+                        name="nbpeople"
+                        value="2"
+                        autocomplete="off"
+                      /> 2
+                  </label>
+                  <label class="form-check-label">
+                      <input
+                        type="radio"
+                        name="nbpeople"
+                        value="3"
+                        autocomplete="off"
+                      /> 3
+                  </label>
+                  <label class="form-check-label">
+                      <input
+                        type="radio"
+                        name="nbpeople"
+                        value="4"
+                        autocomplete="off"
+                      /> 4
+                  </label>
+                  <label class="form-check-label">
+                      <input
+                        type="radio"
+                        name="nbpeople"
+                        value="5"
+                        autocomplete="off"
+                      /> 5
+                  </label>
+                  <label class="form-check-label">
+                      <input
+                        type="radio"
+                        name="nbpeople"
+                        value="6"
+                        autocomplete="off"
+                      /> 6
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="date" class="col-md-2 col-form-label">
+                Date and Time
+              </label>
+              <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Date">
+              </div>
+              <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Time">
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-md-2  col-md-8">
+              <button type="submit" class="btn btn-primary">Reserve</button>
+            </div>
+          </div>
+        </form>
         </div>
       </div>
     </div>
