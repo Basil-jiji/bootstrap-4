@@ -30,8 +30,17 @@
     "cssmin": "^0.4.3",
     "grunt-browser-sync": "^2.0.0",
     "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^5.1.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-filerev": "^2.3.1",
     "grunt-sass": "^3.1.0",
+    "grunt-usemin": "^3.1.1",
     "htmlmin": "^0.0.4",
     "jit-grunt": "^0.10.0",
     "lite-server": "^2.6.1",
@@ -42,7 +51,7 @@
     "sass": "^1.49.9",
     "time-grunt": "^2.0.0",
     "uglifyjs": "^2.4.11",
-    "usemin-cli": "^0.6.0"
+    "usemin-cli": "^0.0.7"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.2",
